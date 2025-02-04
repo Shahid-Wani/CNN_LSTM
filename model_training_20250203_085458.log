@@ -1,0 +1,2 @@
+2025-02-03 10:39:19,097 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-02-03 10:39:21,004 - ERROR - Error in main execution: name 'create_visualizations' is not defined

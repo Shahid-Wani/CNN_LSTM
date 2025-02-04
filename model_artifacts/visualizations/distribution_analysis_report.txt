@@ -1,0 +1,454 @@
+Data Distribution Analysis Report
+================================
+
+1. Overall Statistics
+-----------------
+Total samples: 30002
+
+Class distribution:
+BENIGN: 1998 samples (6.66%)
+Bot: 2001 samples (6.67%)
+DDoS: 2000 samples (6.67%)
+DoS GoldenEye: 2000 samples (6.67%)
+DoS Hulk: 2000 samples (6.67%)
+DoS Slowhttptest: 2001 samples (6.67%)
+DoS slowloris: 2001 samples (6.67%)
+FTP-Patator: 2000 samples (6.67%)
+Heartbleed: 2000 samples (6.67%)
+Infiltration: 2000 samples (6.67%)
+PortScan: 2000 samples (6.67%)
+SSH-Patator: 2001 samples (6.67%)
+Web Attack � Brute Force: 2000 samples (6.67%)
+Web Attack � Sql Injection: 2000 samples (6.67%)
+Web Attack � XSS: 2000 samples (6.67%)
+
+2. PCA Analysis
+-------------
+Explained variance ratios:
+First component: 0.1966
+Second component: 0.0866
+Total variance explained: 28.32%
+
+3. Class Separation Analysis
+-------------------------
+Mean distances between class centers:
+
+BENIGN vs Bot:
+  PCA distance: 2.7739
+  t-SNE distance: 38.4530
+
+BENIGN vs DDoS:
+  PCA distance: 5.1176
+  t-SNE distance: 56.0552
+
+BENIGN vs DoS GoldenEye:
+  PCA distance: 2.7903
+  t-SNE distance: 28.8371
+
+BENIGN vs DoS Hulk:
+  PCA distance: 15.4428
+  t-SNE distance: 74.2653
+
+BENIGN vs DoS Slowhttptest:
+  PCA distance: 9.0037
+  t-SNE distance: 64.8709
+
+BENIGN vs DoS slowloris:
+  PCA distance: 4.1485
+  t-SNE distance: 26.7654
+
+BENIGN vs FTP-Patator:
+  PCA distance: 0.6368
+  t-SNE distance: 73.3627
+
+BENIGN vs Heartbleed:
+  PCA distance: 1.2170
+  t-SNE distance: 83.9653
+
+BENIGN vs Infiltration:
+  PCA distance: 3.9187
+  t-SNE distance: 80.5080
+
+BENIGN vs PortScan:
+  PCA distance: 9.3503
+  t-SNE distance: 69.7282
+
+BENIGN vs SSH-Patator:
+  PCA distance: 3.9158
+  t-SNE distance: 40.0216
+
+BENIGN vs Web Attack � Brute Force:
+  PCA distance: 2.4924
+  t-SNE distance: 80.1376
+
+BENIGN vs Web Attack � Sql Injection:
+  PCA distance: 1.3835
+  t-SNE distance: 47.9324
+
+BENIGN vs Web Attack � XSS:
+  PCA distance: 4.7542
+  t-SNE distance: 80.1691
+
+Bot vs DDoS:
+  PCA distance: 6.7685
+  t-SNE distance: 78.3286
+
+Bot vs DoS GoldenEye:
+  PCA distance: 5.5384
+  t-SNE distance: 67.2704
+
+Bot vs DoS Hulk:
+  PCA distance: 17.1352
+  t-SNE distance: 109.2107
+
+Bot vs DoS Slowhttptest:
+  PCA distance: 11.4279
+  t-SNE distance: 103.1048
+
+Bot vs DoS slowloris:
+  PCA distance: 5.5243
+  t-SNE distance: 27.9310
+
+Bot vs FTP-Patator:
+  PCA distance: 2.2112
+  t-SNE distance: 82.0282
+
+Bot vs Heartbleed:
+  PCA distance: 3.9412
+  t-SNE distance: 122.1726
+
+Bot vs Infiltration:
+  PCA distance: 6.4482
+  t-SNE distance: 107.5006
+
+Bot vs PortScan:
+  PCA distance: 6.5887
+  t-SNE distance: 50.6036
+
+Bot vs SSH-Patator:
+  PCA distance: 6.5063
+  t-SNE distance: 64.9729
+
+Bot vs Web Attack � Brute Force:
+  PCA distance: 0.3492
+  t-SNE distance: 52.8270
+
+Bot vs Web Attack � Sql Injection:
+  PCA distance: 3.1773
+  t-SNE distance: 52.3808
+
+Bot vs Web Attack � XSS:
+  PCA distance: 1.9803
+  t-SNE distance: 45.2282
+
+DDoS vs DoS GoldenEye:
+  PCA distance: 5.2107
+  t-SNE distance: 54.6549
+
+DDoS vs DoS Hulk:
+  PCA distance: 10.4145
+  t-SNE distance: 46.9295
+
+DDoS vs DoS Slowhttptest:
+  PCA distance: 5.3981
+  t-SNE distance: 62.4800
+
+DDoS vs DoS slowloris:
+  PCA distance: 1.2965
+  t-SNE distance: 50.4251
+
+DDoS vs FTP-Patator:
+  PCA distance: 5.6170
+  t-SNE distance: 127.6332
+
+DDoS vs Heartbleed:
+  PCA distance: 5.1523
+  t-SNE distance: 90.0866
+
+DDoS vs Infiltration:
+  PCA distance: 6.7987
+  t-SNE distance: 121.0818
+
+DDoS vs PortScan:
+  PCA distance: 12.1175
+  t-SNE distance: 68.9099
+
+DDoS vs SSH-Patator:
+  PCA distance: 6.5759
+  t-SNE distance: 89.7827
+
+DDoS vs Web Attack � Brute Force:
+  PCA distance: 6.7011
+  t-SNE distance: 129.9377
+
+DDoS vs Web Attack � Sql Injection:
+  PCA distance: 6.3680
+  t-SNE distance: 103.9147
+
+DDoS vs Web Attack � XSS:
+  PCA distance: 8.3200
+  t-SNE distance: 123.2311
+
+DoS GoldenEye vs DoS Hulk:
+  PCA distance: 14.5995
+  t-SNE distance: 52.5104
+
+DoS GoldenEye vs DoS Slowhttptest:
+  PCA distance: 7.2657
+  t-SNE distance: 36.8961
+
+DoS GoldenEye vs DoS slowloris:
+  PCA distance: 4.8728
+  t-SNE distance: 51.5997
+
+DoS GoldenEye vs FTP-Patator:
+  PCA distance: 3.3283
+  t-SNE distance: 78.1409
+
+DoS GoldenEye vs Heartbleed:
+  PCA distance: 1.5976
+  t-SNE distance: 55.2966
+
+DoS GoldenEye vs Infiltration:
+  PCA distance: 1.6312
+  t-SNE distance: 66.5942
+
+DoS GoldenEye vs PortScan:
+  PCA distance: 12.1268
+  t-SNE distance: 93.0820
+
+DoS GoldenEye vs SSH-Patator:
+  PCA distance: 1.4640
+  t-SNE distance: 38.3908
+
+DoS GoldenEye vs Web Attack � Brute Force:
+  PCA distance: 5.2344
+  t-SNE distance: 104.6660
+
+DoS GoldenEye vs Web Attack � Sql Injection:
+  PCA distance: 2.7833
+  t-SNE distance: 61.4229
+
+DoS GoldenEye vs Web Attack � XSS:
+  PCA distance: 7.5120
+  t-SNE distance: 107.6007
+
+DoS Hulk vs DoS Slowhttptest:
+  PCA distance: 8.0043
+  t-SNE distance: 28.7146
+
+DoS Hulk vs DoS slowloris:
+  PCA distance: 11.6153
+  t-SNE distance: 84.4786
+
+DoS Hulk vs FTP-Patator:
+  PCA distance: 15.9880
+  t-SNE distance: 128.8723
+
+DoS Hulk vs Heartbleed:
+  PCA distance: 15.1953
+  t-SNE distance: 52.4371
+
+DoS Hulk vs Infiltration:
+  PCA distance: 15.7936
+  t-SNE distance: 104.4218
+
+DoS Hulk vs PortScan:
+  PCA distance: 21.5942
+  t-SNE distance: 113.9305
+
+DoS Hulk vs SSH-Patator:
+  PCA distance: 15.5080
+  t-SNE distance: 89.4203
+
+DoS Hulk vs Web Attack � Brute Force:
+  PCA distance: 17.0945
+  t-SNE distance: 154.3214
+
+DoS Hulk vs Web Attack � Sql Injection:
+  PCA distance: 16.5652
+  t-SNE distance: 113.9278
+
+DoS Hulk vs Web Attack � XSS:
+  PCA distance: 18.5028
+  t-SNE distance: 153.5674
+
+DoS Slowhttptest vs DoS slowloris:
+  PCA distance: 6.5905
+  t-SNE distance: 83.3731
+
+DoS Slowhttptest vs FTP-Patator:
+  PCA distance: 9.6340
+  t-SNE distance: 105.3066
+
+DoS Slowhttptest vs Heartbleed:
+  PCA distance: 8.3242
+  t-SNE distance: 27.6229
+
+DoS Slowhttptest vs Infiltration:
+  PCA distance: 8.1373
+  t-SNE distance: 76.2900
+
+DoS Slowhttptest vs PortScan:
+  PCA distance: 17.3726
+  t-SNE distance: 120.5288
+
+DoS Slowhttptest vs SSH-Patator:
+  PCA distance: 7.8478
+  t-SNE distance: 67.4550
+
+DoS Slowhttptest vs Web Attack � Brute Force:
+  PCA distance: 11.2552
+  t-SNE distance: 141.2573
+
+DoS Slowhttptest vs Web Attack � Sql Injection:
+  PCA distance: 9.7592
+  t-SNE distance: 95.0455
+
+DoS Slowhttptest vs Web Attack � XSS:
+  PCA distance: 13.2423
+  t-SNE distance: 144.4511
+
+DoS slowloris vs FTP-Patator:
+  PCA distance: 4.5743
+  t-SNE distance: 94.2701
+
+DoS slowloris vs Heartbleed:
+  PCA distance: 4.4348
+  t-SNE distance: 106.1682
+
+DoS slowloris vs Infiltration:
+  PCA distance: 6.5039
+  t-SNE distance: 107.0819
+
+DoS slowloris vs PortScan:
+  PCA distance: 10.8422
+  t-SNE distance: 42.9757
+
+DoS slowloris vs SSH-Patator:
+  PCA distance: 6.3209
+  t-SNE distance: 65.6447
+
+DoS slowloris vs Web Attack � Brute Force:
+  PCA distance: 5.4796
+  t-SNE distance: 80.2215
+
+DoS slowloris vs Web Attack � Sql Injection:
+  PCA distance: 5.4824
+  t-SNE distance: 65.6430
+
+DoS slowloris vs Web Attack � XSS:
+  PCA distance: 7.0301
+  t-SNE distance: 72.8596
+
+FTP-Patator vs Heartbleed:
+  PCA distance: 1.7307
+  t-SNE distance: 105.0789
+
+FTP-Patator vs Infiltration:
+  PCA distance: 4.3056
+  t-SNE distance: 49.1033
+
+FTP-Patator vs PortScan:
+  PCA distance: 8.7998
+  t-SNE distance: 131.6447
+
+FTP-Patator vs SSH-Patator:
+  PCA distance: 4.3373
+  t-SNE distance: 39.7817
+
+FTP-Patator vs Web Attack � Brute Force:
+  PCA distance: 1.9072
+  t-SNE distance: 70.7402
+
+FTP-Patator vs Web Attack � Sql Injection:
+  PCA distance: 1.2991
+  t-SNE distance: 29.7302
+
+FTP-Patator vs Web Attack � XSS:
+  PCA distance: 4.1840
+  t-SNE distance: 88.8394
+
+Heartbleed vs Infiltration:
+  PCA distance: 2.7392
+  t-SNE distance: 65.2239
+
+Heartbleed vs PortScan:
+  PCA distance: 10.5298
+  t-SNE distance: 145.6699
+
+Heartbleed vs SSH-Patator:
+  PCA distance: 2.7144
+  t-SNE distance: 73.0326
+
+Heartbleed vs Web Attack � Brute Force:
+  PCA distance: 3.6370
+  t-SNE distance: 153.3049
+
+Heartbleed vs Web Attack � Sql Injection:
+  PCA distance: 1.4364
+  t-SNE distance: 102.6121
+
+Heartbleed vs Web Attack � XSS:
+  PCA distance: 5.9145
+  t-SNE distance: 159.9521
+
+Infiltration vs PortScan:
+  PCA distance: 12.9643
+  t-SNE distance: 149.7431
+
+Infiltration vs SSH-Patator:
+  PCA distance: 0.2896
+  t-SNE distance: 42.7053
+
+Infiltration vs Web Attack � Brute Force:
+  PCA distance: 6.1124
+  t-SNE distance: 115.0888
+
+Infiltration vs Web Attack � Sql Injection:
+  PCA distance: 3.3202
+  t-SNE distance: 63.2721
+
+Infiltration vs Web Attack � XSS:
+  PCA distance: 8.3499
+  t-SNE distance: 129.4950
+
+PortScan vs SSH-Patator:
+  PCA distance: 13.0492
+  t-SNE distance: 107.6992
+
+PortScan vs Web Attack � Brute Force:
+  PCA distance: 6.9000
+  t-SNE distance: 95.8349
+
+PortScan vs Web Attack � Sql Injection:
+  PCA distance: 9.6446
+  t-SNE distance: 101.9396
+
+PortScan vs Web Attack � XSS:
+  PCA distance: 4.6260
+  t-SNE distance: 79.1428
+
+SSH-Patator vs Web Attack � Brute Force:
+  PCA distance: 6.1752
+  t-SNE distance: 81.6398
+
+SSH-Patator vs Web Attack � Sql Injection:
+  PCA distance: 3.4172
+  t-SNE distance: 29.6137
+
+SSH-Patator vs Web Attack � XSS:
+  PCA distance: 8.4277
+  t-SNE distance: 91.8572
+
+Web Attack � Brute Force vs Web Attack � Sql Injection:
+  PCA distance: 2.8322
+  t-SNE distance: 53.0342
+
+Web Attack � Brute Force vs Web Attack � XSS:
+  PCA distance: 2.2781
+  t-SNE distance: 22.1479
+
+Web Attack � Sql Injection vs Web Attack � XSS:
+  PCA distance: 5.0353
+  t-SNE distance: 66.2247
